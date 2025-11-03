@@ -1,4 +1,3 @@
-import { trusted } from "mongoose"
 import ToDo from "../models/ToDoEntry.js"
 
 export async function getAllNotes (_,res) {  
