@@ -2,7 +2,7 @@ import React from 'react'
 import {Route, Routes} from "react-router"
 import HomePage from './pages/HomePage.jsx'
 import CreatePage from './pages/CreatePage.jsx'
-import NoteDetailPage from './pages/NodeDetailPage.jsx'
+import ToDoDetailPage from './pages/ToDoDetailPage.jsx'
 import toast from 'react-hot-toast'
 
 
@@ -13,7 +13,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />}/>
         <Route path="/create" element={<CreatePage />}/>
-        <Route path="/note/:id" element={<NoteDetailPage />}/>
+        <Route path="/note/:id" element={<ToDoDetailPage />}/>
 
       </Routes>
     </div>
